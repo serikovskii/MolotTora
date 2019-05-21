@@ -1,0 +1,86 @@
+﻿<Window x:Class="MolotTora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MolotTora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Canvas Margin="3,-2,-3,2">
+        <Rectangle Fill="GreenYellow" Height="83" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="262" Canvas.Top="116"/>
+        <Rectangle Fill="GreenYellow" Height="83" Width="93" Stroke="Green" StrokeThickness="1" Canvas.Left="76" Canvas.Top="116"/>
+        <Rectangle Fill="GreenYellow" Height="83" Width="93" Stroke="Green" StrokeThickness="1" Canvas.Left="169" Canvas.Top="33"/>
+        <Rectangle Fill="GreenYellow" Height="83" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="169" Canvas.Top="364"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="169.096" Canvas.Top="116.011" Data="M10,100 L100,100 L10,20 z" Height="82.979" Stretch="Fill" Width="91.808"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="170.198" Canvas.Top="116.176" Data="M10,100 L100,100 L10,20 z" RenderTransformOrigin="0.5,0.5" Height="82.648" Stretch="Fill" Width="91.854">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.015"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="262" Canvas.Top="33" Data="M10,100 L100,100 L10,20 z" Height="83" Stretch="Fill"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="76" Canvas.Top="364.136" Data="M10,100 L100,100 L10,20 z" RenderTransformOrigin="0.5,0.5" Height="82.728" Stretch="Fill" Width="93.167">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.015"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="266" Canvas.Top="359.094" Data="M10,100 L100,100 L10,20 z" RenderTransformOrigin="0.5,0.5" Height="92.812" Stretch="Fill" Width="83.263">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.99"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="81.123" Canvas.Top="28" Data="M10,100 L100,100 L10,20 z" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Width="82.754" Height="93.236">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270.015"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Rectangle Fill="GreenYellow" Height="83" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="262" Canvas.Top="199"/>
+        <Rectangle Fill="GreenYellow" Height="83" Width="93" Stroke="Green" StrokeThickness="1" Canvas.Left="76" Canvas.Top="199"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="169.114" Canvas.Top="199.041" Data="M10,100 L100,100 L10,20 z" Height="82.917" Stretch="Fill" Width="92.772"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="170.218" Canvas.Top="199.134" Data="M10,100 L100,100 L10,20 z" RenderTransformOrigin="0.5,0.5" Height="82.732" Stretch="Fill" Width="91.564">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.025"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Rectangle Fill="GreenYellow" Height="82" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="262" Canvas.Top="282"/>
+        <Rectangle Fill="GreenYellow" Height="82" Width="93" Stroke="Green" StrokeThickness="1" Canvas.Left="76" Canvas.Top="282"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="168.614" Canvas.Top="282.021" Data="M10,100 L100,100 L10,20 z" Height="81.958" Stretch="Fill" Width="92.772"/>
+        <Path Fill="GreenYellow" Stroke="Green" Canvas.Left="170.218" Canvas.Top="282" Data="M10,100 L100,100 L10,20 z" RenderTransformOrigin="0.5,0.5" Height="81.482" Stretch="Fill" Width="91.564">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.025"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Rectangle Fill="GreenYellow" Height="83" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="354" Canvas.Top="199"/>
+        <Rectangle Fill="GreenYellow" Height="83" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="446" Canvas.Top="199"/>
+        <Rectangle Fill="GreenYellow" Height="83" Width="92" Stroke="Green" StrokeThickness="1" Canvas.Left="538" Canvas.Top="199"/>
+    </Canvas>
+</Window>
